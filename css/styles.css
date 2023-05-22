@@ -3,8 +3,9 @@
     padding: 0;
 }
 
-.logito{
-    width: 700px;
+.logo{
+    width: 70%;
+    margin: 0 auto;
 }
 
 ul{
@@ -64,10 +65,49 @@ input{
     font-family: 'Open Sans', sans-serif;
 }
 
-img{
-    max-width: 100%;
+.flecha{
+    width: 50px;
+    position: fixed;
+    bottom: 7px;
+    right: 7px;
 }
 
+.imagenes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin: 0 auto;
+}
+
+/*AJUSTE PARA DIFERENTES MEDIDAS DE PANTALLA*/
+
+@media(min-width: 768px){
+    .imagenes{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+@media (min-width: 992px){
+    .imagenes {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+
+
+/*COSAS QUE YA NO SE USAN*/
+
+/*
+.titulos{
+    margin: 0 auto;
+}
+*/
+
+/*
 .padre-galeria{
     display: flex;
     justify-content: center;
@@ -96,23 +136,26 @@ img{
 .hijo-inicio img{
     width: 400px;
 }
+*/
 
-.flecha{
-    width: 50px;
-    position: fixed;
-    bottom: 10px;
-    right: 50px;
+/*
+.texto-titulos{
+    font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    margin: 25px;
 }
+*/
 
+/*
 @media (min-width: 768px) {
     .logo{
         margin: 0 auto;
         width: 70%;
     }
 }
+*/
 
-
-
+/*
 .navbar {
     display: flex;
     align-items: center;
@@ -128,10 +171,26 @@ img{
 .padre-fotos img{
     width: 600px;
 }
+*/
 
+/*
+.texto{
+    margin: 25px;
+    display: flex;
+}
+*/
+
+/*
 @media (min-width: 768px){
-    .padre-fotos {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
+    #carouselExample{
+        width: 70%;
+        margin: 0 auto;
     }
 }
+*/
+
+/*
+img{
+    max-width: 100%;
+}
+*/
