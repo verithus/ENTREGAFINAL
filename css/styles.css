@@ -3,13 +3,12 @@
     padding: 0;
 }
 
-.logo{
-    width: 70%;
-    margin: 0 auto;
+img{
+    max-width: 100%;
 }
 
-.logito{
-    width: 700px;
+.logo{
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -45,12 +44,23 @@ h1{
     color: #525652;
     font-family: 'Open Sans', sans-serif;
     margin: 20px;
-    width: 80%;
+}
+
+.parrafo-gris1 {
+    color: #525652;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    margin: 0 auto;
 }
 
 h2{
     font-family: 'Open Sans', sans-serif;
     margin: 25px;
+}
+
+h5{
+    color: black;
+    font-style: italic;
 }
 
 label{
@@ -195,7 +205,7 @@ input{
 */
 
 /*
-img{
-    max-width: 100%;
+.logito{
+    width: 700px;
 }
 */
